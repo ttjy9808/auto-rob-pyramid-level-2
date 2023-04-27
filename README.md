@@ -656,7 +656,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         currentPos = targetPos
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
         task.wait(2)
-repeat task.wait() until game.Workspace.Heists.Pyramid.Level2.RoofTrap.Door.Position.Y > -18.916236877441406
+repeat task.wait() until game.Workspace.Heists.Pyramid.Level2.RoofTrap.Door.Position.Y < -18
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3200.69970703125, -34.97478103637695, -476.39947509765625)
 	task.wait(0.5)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3198.41650390625, -23.371816635131836, -467.68878173828125)
