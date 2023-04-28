@@ -725,6 +725,8 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,14.1,z
 task.wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2774.34,18.47,-322.68)
 task.wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3100.6,152.2,-614.58)
+task.wait()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-criminal-base2/main/README.md'))()
 task.wait(3)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(121.9,26.48,-178.06)
