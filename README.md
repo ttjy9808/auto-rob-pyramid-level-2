@@ -6,9 +6,9 @@ localplayer = game.Players.LocalPlayer
         end
          p = HRP.Position
          hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-         x = -3098.3
-         y = -30.06
-       	 z = -624.18
+         x = -261.22
+         y = -44.06
+       	 z = -1352.41
         hrd.CFrame = CFrame.new(p.x, 1000, p.z)
         wait(0.5)
          currentPos = Vector3.new(p.x, 1000, p.z)
@@ -76,67 +76,8 @@ end
 
 noclip()
 
- local localplayer = game.Players.LocalPlayer
-local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
-        local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
-        if not Char or not HRP then
-           
-        end
-        local p = HRP.Position
-        local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3095.06
-        local y = -27.76
-        local z = -620.61
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
-        wait(0.5)
-        local currentPos = Vector3.new(p.x, -27.76, p.z)
-        local targetPos = Vector3.new(x, -27.76, z)
 
-        local direction = (targetPos - currentPos).Unit
-        local distance = (targetPos - currentPos).Magnitude
-        local steps = math.floor(distance / 10) 
-        for i = 1, steps do
-            currentPos = currentPos + direction * 10
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-            task.wait()
-        end
-
-        
-        currentPos = targetPos
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-        task.wait(0.1)
-        local p = hrd.Position
-        
-        local currentPos = Vector3.new(x, -27.76, z)
-        local targetPos = Vector3.new(x, y, z)
-
-        local direction = (targetPos - currentPos).Unit
-        local distance = (targetPos - currentPos).Magnitude
-        local steps = math.floor(distance / 10) 
-        for i = 1, steps do
-            currentPos = currentPos + direction * 10 
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-            task.wait()
-        end
-        currentPos = targetPos
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-        task.wait(0.1)
-        local p = hrd.Position
-        
-        local currentPos = Vector3.new(x, -27.76, z)
-        local targetPos = Vector3.new(x, y, z)
-
-        local direction = (targetPos - currentPos).Unit
-        local distance = (targetPos - currentPos).Magnitude
-        local steps = math.floor(distance / 10) 
-        for i = 1, steps do
-            currentPos = currentPos + direction * 10 
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-            task.wait()
-        end
-        
-        currentPos = targetPos
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-267.71,-44.06,-1347.65)
 task.wait()
  localplayer = game.Players.LocalPlayer
  Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
@@ -146,13 +87,13 @@ task.wait()
         end
          p = HRP.Position
          hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-         x = -2931.5
-         y = -33
-       	 z = -541.56
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
+         x = -278.97
+         y = -49.3
+       	 z = -1166.66
+        hrd.CFrame = CFrame.new(p.x, -44.06, p.z)
         wait(0.5)
-         currentPos = Vector3.new(p.x, -27.76, p.z)
-         targetPos = Vector3.new(x, -27.76, z)
+         currentPos = Vector3.new(p.x, -44.06, p.z)
+         targetPos = Vector3.new(x, -44.06, z)
 
          direction = (targetPos - currentPos).Unit
          distance = (targetPos - currentPos).Magnitude
@@ -169,7 +110,7 @@ task.wait()
         task.wait(0.1)
          p = hrd.Position
         
-         currentPos = Vector3.new(x, -27.76, z)
+         currentPos = Vector3.new(x, -44.06, z)
          targetPos = Vector3.new(x, y, z)
 
          direction = (targetPos - currentPos).Unit
@@ -199,14 +140,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
            
         end
         local p = HRP.Position
-        local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3094.47
-        local y = -27.76
-        local z = -622.14
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
+         x = -267.71
+         y = -44.06
+       	 z = -1347.65
+        hrd.CFrame = CFrame.new(p.x, -44.06, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -27.76, p.z)
-        local targetPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(p.x, -44.06, p.z)
+        local targetPos = Vector3.new(x, -44.06, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -223,7 +163,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(x, -44.06, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -237,7 +177,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         
         currentPos = targetPos
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-        task.wait()
+        task.wait(0.5)
 local localplayer = game.Players.LocalPlayer
 local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
@@ -246,13 +186,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
         local p = HRP.Position
         local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3154.79
-        local y = -33.1
-        local z = -496.27
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
+        local x = -405.05
+        local y = -49.4
+        local z = -1359.01
+        hrd.CFrame = CFrame.new(p.x, -44.06, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -27.76, p.z)
-        local targetPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(p.x, -44.06, p.z)
+        local targetPos = Vector3.new(x, -44.06, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -269,7 +209,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(x, -44.06, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -283,7 +223,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         
         currentPos = targetPos
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-        task.wait(1)
+        task.wait(2)
 keyPress(Enum.KeyCode.E, true)
 task.wait(5)
  local localplayer = game.Players.LocalPlayer
@@ -294,13 +234,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
         local p = HRP.Position
         local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3094.47
-        local y = -27.76
-        local z = -622.14
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
+        local x = -266.12
+        local y = -44.06
+        local z = -1348.81
+        hrd.CFrame = CFrame.new(p.x, -44.06, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -27.76, p.z)
-        local targetPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(p.x, -44.06, p.z)
+        local targetPos = Vector3.new(x, -44.06, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -317,7 +257,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(x, -44.06, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -340,13 +280,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
         local p = HRP.Position
         local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3094.47
-        local y = -27.76
-        local z = -622.14
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
+        local x = -28.5
+        local y = -44.06
+        local z = -1332.73
+        hrd.CFrame = CFrame.new(p.x, -44.06, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -27.76, p.z)
-        local targetPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(p.x, -44.06, p.z)
+        local targetPos = Vector3.new(x, -44.06, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -363,7 +303,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(x, -44.06, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -377,53 +317,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         
         currentPos = targetPos
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-        task.wait()
-                local localplayer = game.Players.LocalPlayer
-local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
-        local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
-        if not Char or not HRP then
-           
-        end
-        local p = HRP.Position
-        local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -2991.84
-        local y = -33
-        local z = -835.77
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
-        wait(0.5)
-        local currentPos = Vector3.new(p.x, -27.76, p.z)
-        local targetPos = Vector3.new(x, -27.76, z)
-
-        local direction = (targetPos - currentPos).Unit
-        local distance = (targetPos - currentPos).Magnitude
-        local steps = math.floor(distance / 10) 
-        for i = 1, steps do
-            currentPos = currentPos + direction * 10
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-            task.wait()
-        end
-
-        
-        currentPos = targetPos
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-        task.wait(0.1)
-        local p = hrd.Position
-        
-        local currentPos = Vector3.new(x, -27.76, z)
-        local targetPos = Vector3.new(x, y, z)
-
-        local direction = (targetPos - currentPos).Unit
-        local distance = (targetPos - currentPos).Magnitude
-        local steps = math.floor(distance / 10) 
-        for i = 1, steps do
-            currentPos = currentPos + direction * 10 
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-            task.wait()
-        end
-        
-        currentPos = targetPos
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-        task.wait(1)
+        task.wait(2)
       keyPress(Enum.KeyCode.E, true)
 task.wait(5)
         local localplayer = game.Players.LocalPlayer
@@ -434,13 +328,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
         local p = HRP.Position
         local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3094.47
-        local y = -27.76
-        local z = -622.14
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
+        local x = -261.66
+        local y = -44.06
+        local z = -1348.9
+        hrd.CFrame = CFrame.new(p.x, -44.06, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -27.76, p.z)
-        local targetPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(p.x, -44.06, p.z)
+        local targetPos = Vector3.new(x, -44.06, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -457,7 +351,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(x, -44.06, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -480,13 +374,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
         local p = HRP.Position
         local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3270.34
-        local y = -35
-        local z = -706.95
-        hrd.CFrame = CFrame.new(p.x, -27.76, p.z)
+        local x = -258.12
+        local y = -51.3
+        local z = -1548.64
+        hrd.CFrame = CFrame.new(p.x, -44.06, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -27.76, p.z)
-        local targetPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(p.x, -44.06, p.z)
+        local targetPos = Vector3.new(x, -44.06, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -503,7 +397,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -27.76, z)
+        local currentPos = Vector3.new(x, -44.06, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -526,13 +420,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
         local p = HRP.Position
         local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3357.89
-        local y = -27
-        local z = -674.7
-        hrd.CFrame = CFrame.new(p.x, -34.99, p.z)
+        local x = -307.46
+        local y = -51.3
+        local z = -1611.33
+        hrd.CFrame = CFrame.new(p.x, -51.3, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -34.99, p.z)
-        local targetPos = Vector3.new(x, -34.99, z)
+        local currentPos = Vector3.new(p.x, -51.3, p.z)
+        local targetPos = Vector3.new(x, -51.3, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -549,7 +443,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -34.99, z)
+        local currentPos = Vector3.new(x, -51.3, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -572,13 +466,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
         local p = HRP.Position
         local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -3405.18
-        local y = -37.7
-        local z = -553.24
-        hrd.CFrame = CFrame.new(p.x, -6, p.z)
+        local x = -446.7
+        local y = -54
+        local z = -1602.85
+        hrd.CFrame = CFrame.new(p.x, -54, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -6, p.z)
-        local targetPos = Vector3.new(x, -6, z)
+        local currentPos = Vector3.new(p.x, -54, p.z)
+        local targetPos = Vector3.new(x, -54, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -595,7 +489,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -6, z)
+        local currentPos = Vector3.new(x, -54, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -618,13 +512,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
          p = HRP.Position
          hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-         x = -3269.64
-         y = -34.8
-       	 z = -473.55
-        hrd.CFrame = CFrame.new(p.x, -3, p.z)
+         x = -469.23
+         y = -51.1
+       	 z = -1455.5
+        hrd.CFrame = CFrame.new(p.x, -53, p.z)
         wait(0.5)
-         currentPos = Vector3.new(p.x, -27.76, p.z)
-         targetPos = Vector3.new(x, -27.76, z)
+         currentPos = Vector3.new(p.x, -53, p.z)
+         targetPos = Vector3.new(x, -53, z)
 
          direction = (targetPos - currentPos).Unit
          distance = (targetPos - currentPos).Magnitude
@@ -641,7 +535,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
          p = hrd.Position
         
-         currentPos = Vector3.new(x, -27.76, z)
+         currentPos = Vector3.new(x, -53, z)
          targetPos = Vector3.new(x, y, z)
 
          direction = (targetPos - currentPos).Unit
@@ -656,28 +550,35 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         currentPos = targetPos
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
         task.wait(2)
-repeat task.wait() until game.Workspace.Heists.Pyramid.Level2.RoofTrap.Door.Position.Y > -19
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3200.69970703125, -34.97478103637695, -476.39947509765625)
+repeat task.wait() until game.Workspace.Heists.Pyramid.Level2.RoofTrap.Door.Position.Y > -36
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-439.64,-51.3,-1392.26)
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3198.41650390625, -23.371816635131836, -467.68878173828125)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-446.53,-46.92,-1387.25)
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3160.27587890625, -34.97908020019531, -442.07513427734375)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-456.88,-51.30,-1342.74)
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3131.61376953125, -34.899078369140625, -436.4435729980469)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-451.55,-51.20,-1313.45)
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3115.545654296875, -34.899078369140625, -407.427734375)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-471.64,-51.20,-1285.07)
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3111.57470703125, -23.34929656982422, -403.7622375488281)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-474.23,-46.79,-1282.22)
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3096.9404296875, -34.899078369140625, -388.6240539550781)	
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-482.17,-51.20,-1260.06)	
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2991.98974609375, -34.899078369140625, -349.51629638671875)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-483.30,-51.20,-1210)	
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2896.046142578125, -34.99907684326172, -318.60601806640625)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-480.23,-51.20,-1153.73)
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2805.063232421875, -34.342620849609375, -295.623291015625)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-479.22,-51.20,-1137.83)
 	task.wait(0.5)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2810.429443359375, -34.89299774169922, -327.98675537109375)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-478.68,-51.20,-1107.38)
+	task.wait(0.5)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-472.30,-51.30,-1042.75)
+	task.wait(0.5)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-460.28,-51.24,-976.62)
+	task.wait(0.5)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-458.62,-51.20,-961.58)
+	task.wait(0.5)
 	task.wait(1)
 		local VirtualInputManager = game:GetService('VirtualInputManager')
 
@@ -685,48 +586,46 @@ function keyPress(Key, Press)
     VirtualInputManager:SendKeyEvent(Press, Key, false, game)
 end
 task.wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2810.429443359375, -34.89299774169922, -327.98675537109375)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-431.07,-51.08,-974.73)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2806.060791015625, -31.192115783691406, -337.8108825683594)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-421.17,-47.80,-973.50)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2810.429443359375, -34.89299774169922, -327.98675537109375)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-431.07,-51.08,-974.73)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2806.060791015625, -31.192115783691406, -337.8108825683594)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-421.17,-47.80,-973.50)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2810.429443359375, -34.89299774169922, -327.98675537109375)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-431.07,-51.08,-974.73)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2806.060791015625, -31.192115783691406, -337.8108825683594)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-421.17,-47.80,-973.50)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2810.429443359375, -34.89299774169922, -327.98675537109375)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-431.07,-51.08,-974.73)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2806.060791015625, -31.192115783691406, -337.8108825683594)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-421.17,-47.80,-973.50)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2810.429443359375, -34.89299774169922, -327.98675537109375)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-431.07,-51.08,-974.73)
 task.wait()
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,14.1,z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-431.07,-2,-974.73)
 task.wait()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2774.34,18.47,-322.68)
-task.wait()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3100.6,152.2,-614.58)
-task.wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-419.15,-2,-938.20)
+task.wait(1)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-criminal-base2/main/README.md'))()
 task.wait(3)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(121.9,26.48,-178.06)
